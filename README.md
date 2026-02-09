@@ -1,6 +1,6 @@
-# Metge Mate GitHub Action
+# Metge M8 GitHub Action
 
-Nightwatch is a GitHub Action for teams that need faster, higher quality pull request reviews. It posts a concise, actionable report directly on the PR to accelerate resolution and reduce review thrash.
+Merge M8 is a GitHub Action for teams that need faster, higher quality pull request reviews. It posts a concise, actionable report directly on the PR to accelerate resolution and reduce review thrash.
 
 ### Why teams use Nightwatch
 
@@ -24,7 +24,7 @@ Nightwatch is a GitHub Action for teams that need faster, higher quality pull re
 Add Nightwatch as a drop-in GitHub Action (example workflow):
 
 ```yaml
-name: Merge Mate
+name: Merge M8
 
 on:
   pull_request:
