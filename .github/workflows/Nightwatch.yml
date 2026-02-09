@@ -18,7 +18,7 @@ jobs:
         with:
           fetch-depth: 0  # needed for git history/ownership
 
-      - uses: actions/setup-node@v6
+      - uses: actions/setup-node@v4
         with:
           node-version: 20
 
