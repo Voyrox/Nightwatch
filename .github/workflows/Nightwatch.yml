@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: 20
 
-      - name: Run PR Risk Assessment
+      - name: Run Merge M8
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TZ: Australia/Sydney
