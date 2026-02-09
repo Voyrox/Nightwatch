@@ -24,7 +24,7 @@ Nightwatch is a GitHub Action for teams that need faster, higher quality pull re
 Add Nightwatch as a drop-in GitHub Action (example workflow):
 
 ```yaml
-name: Pages Preview
+name: PR Risk Assessment
 
 on:
   pull_request:
