@@ -21,7 +21,7 @@ Nightwatch is a GitHub Action for teams that need faster, higher quality pull re
 
 ### Usage
 
-Add Nightwatch as a drop-in GitHub Action (example: `.github/workflows/pages-preview.yml`):
+Add Nightwatch as a drop-in GitHub Action (example workflow):
 
 ```yaml
 name: Pages Preview
@@ -40,7 +40,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Nightwatch
-        uses: ./.github/actions/pages-preview
+        uses: Voyrox/Nightwatch@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           timeZone: America/New_York  # optional override (default: Australia/Sydney)

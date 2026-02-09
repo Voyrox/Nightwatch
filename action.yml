@@ -1,4 +1,4 @@
-name: Pages Preview
+name: Nightwatch
 author: Ewen MacCulloch <ewen@macculloch.net>
 description: Generate PR Nightwatch report and post to the PR
 branding:
@@ -12,7 +12,7 @@ inputs:
     default: ${{ github.token }}
   timeZone:
     description: Time zone for calculations (TZ format)
-    required: true
+    required: false
     default: Australia/Sydney
 
 runs:
@@ -32,7 +32,7 @@ runs:
           npm install
         fi
 
-    - name: Run Pages Preview
+    - name: Run Nightwatch
       shell: bash
       env:
         GITHUB_TOKEN: ${{ inputs.github_token }}
