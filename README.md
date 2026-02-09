@@ -1,6 +1,4 @@
-# Nightwatch
-
-## Pages Preview Action
+# Nightwatch Action
 
 Generate a PR Nightwatch report and post it as a comment.
 
