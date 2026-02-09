@@ -1,4 +1,4 @@
-name: Merge Mate
+name: Merge M8
 
 on:
   pull_request:
