@@ -1,4 +1,4 @@
-name: PR Risk Assessment
+name: Merge Mate
 
 on:
   pull_request:
