@@ -1,4 +1,4 @@
-# Nightwatch GitHub Action
+# PR Risk Assessment GitHub Action
 
 Nightwatch is a GitHub Action for teams that need faster, higher quality pull request reviews. It posts a concise, actionable report directly on the PR to accelerate resolution and reduce review thrash.
 

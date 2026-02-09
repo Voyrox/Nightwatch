@@ -1,6 +1,6 @@
 name: PR Risk Assessment
 author: Ewen MacCulloch <ewen@macculloch.net>
-description: Generate PR Nightwatch report and post to the PR
+description: Generate PR report and post to the PR
 branding:
   color: gray-dark
   icon: upload-cloud

@@ -1,4 +1,4 @@
-name: Nightwatch
+name: PR Risk Assessment
 
 on:
   pull_request:
@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: 20
 
-      - name: Run Nightwatch bot
+      - name: Run PR Risk Assessment
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TZ: Australia/Sydney
