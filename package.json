@@ -1,6 +1,6 @@
 {
   "name": "merge-m8",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Merge M8 posts a concise, actionable report directly on the PR to accelerate resolution and reduce review thrash.",
   "main": "lib/main.js",
   "type": "commonjs",
