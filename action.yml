@@ -38,4 +38,4 @@ runs:
         TZ: ${{ inputs.timeZone }}
         DANGEROUS_PATTERNS: ${{ inputs.dangerousPatterns }}
       run: |
-        node lib/main.js
+        node ${{ github.action_path }}/lib/main.js
