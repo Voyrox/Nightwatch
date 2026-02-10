@@ -14,6 +14,19 @@ inputs:
     description: Time zone for calculations (TZ format)
     required: false
     default: Australia/Sydney
+  dangerousPatterns:
+    description: |
+      Optional YAML to override sensitive file patterns. If omitted, uses default patterns.
+      Format:
+        banned:
+          - pattern: ^\.env$
+            reason: Dotenv file
+          - pattern: secrets?
+            reason: Contains secrets
+        allowed:
+          - ^\.env\.example$
+    required: false
+    default: ""
 
 runs:
   using: composite
@@ -37,5 +50,6 @@ runs:
       env:
         GITHUB_TOKEN: ${{ inputs.github_token }}
         TZ: ${{ inputs.timeZone }}
+        DANGEROUS_PATTERNS: ${{ inputs.dangerousPatterns }}
       run: |
         node lib/main.js
