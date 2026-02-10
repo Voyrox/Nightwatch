@@ -9,6 +9,7 @@
     "node": ">=18"
   },
   "scripts": {
+    "dev": "node lib/main.js",
     "lint": "eslint .",
     "format": "prettier --check .",
     "format:write": "prettier --write .",
