@@ -14,4 +14,4 @@ updates:
       include: scope
       prefix: ci
     labels:
-      - 'type: chore'
+      - "type: chore"

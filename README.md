@@ -49,7 +49,7 @@ jobs:
         uses: Voyrox/Merge-M8@v1.0.4
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TZ: America/New_York  # optional override (default: Australia/Sydney)
+          TZ: America/New_York # optional override (default: Australia/Sydney)
 ```
 
 ### Inputs

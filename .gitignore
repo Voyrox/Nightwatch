@@ -1,3 +1,9 @@
 # Staging-only assets (keep in repo, exclude from Marketplace packaging)
 .github/actions/pages-preview/action.yml
 .github/workflows/Nightwatch.yml
+
+# Node artifacts
+node_modules
+npm-debug.log*
+.npmrc
+package-lock.json
